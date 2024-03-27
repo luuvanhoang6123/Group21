@@ -1,0 +1,84 @@
+.footer {
+    margin-top: 200px;
+    background-color: rgb(189, 189, 189);
+    color: black;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 230px;
+}
+
+.col-4 {
+    padding-left: 60px;
+}
+
+.col-4 p {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.col-4 li {
+    font-size: 18px;
+    color:#2f2f2f;
+}
+
+.col-4 li a {
+    color:#2f2f2f;
+}
+
+.col-4 li a:hover {
+    color: black;
+}
+
+.dangkitin {
+    display: flex;
+    border-bottom: 2px solid black;
+    width: max-content;
+    padding-bottom: 3px;
+}
+
+.dangkitin input[type="text"] {
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    width: 200px;
+    padding-right: 0;
+    align-items: start;
+    background-color: rgb(189, 189, 189);
+}
+
+.dangkitin input[type="text"]:focus {
+    outline: none;
+}
+
+.dangkitin button {
+    padding: 5px 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dangkitin button:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.col-4 ul {
+    padding: 0;
+}
+
+.contact {
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.social-media i {
+    margin: 10px;
+    font-size: 25px;
+}
